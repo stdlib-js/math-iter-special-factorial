@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import iterFactorial from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-factorial@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-iter-special-factorial/tags). For example,
+
+```javascript
 import iterFactorial from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-factorial@v0.2.1-deno/mod.js';
 ```
 
@@ -109,7 +114,7 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-discrete-uniform@deno/mod.js';
-import iterFactorial from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-factorial@v0.2.1-deno/mod.js';
+import iterFactorial from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-factorial@deno/mod.js';
 
 // Create a seeded iterator for generating pseudorandom numbers:
 var rand = discreteUniform( 0, 171, {
